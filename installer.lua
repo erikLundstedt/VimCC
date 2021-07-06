@@ -23,7 +23,7 @@ else
 end
 fs.makeDir("/utils/vimfiles")
 
-if not http.request("https://github.com/hugonikanor/vimcc") then
+if not http.request("https://github.com/erikLundstedt/vimcc") then
 	error("couldn't connect to the servers for download")
 end
 
@@ -40,7 +40,7 @@ local filenames = {
 	"apiloader.lua"
 }
 
-local baseurl = "https://raw.githubusercontent.com/HugoNikanor/VimCC/master/vimfiles/"
+local baseurl = "https://raw.githubusercontent.com/erikLundstedt/VimCC/master/vimfiles/"
 
 print("downloading vim from github...")
 
